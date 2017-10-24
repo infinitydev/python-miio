@@ -25,7 +25,7 @@ setup(
 
     packages=["miio", "mirobo"],
 
-    install_requires=['construct', 'click', 'cryptography', 'pretty_cron', 'typing', 'zeroconf', 'pycrypto', 'attrs'],
+    install_requires=['construct', 'click', 'cryptography', 'pretty_cron', 'typing', 'zeroconf', 'pycrypto', 'attrs', 'android_backup'],
     entry_points={
         'console_scripts': [
             'mirobo=miio.vacuum_cli:cli',
